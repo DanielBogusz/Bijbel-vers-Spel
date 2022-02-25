@@ -4,7 +4,8 @@ import random
 bijbel = {} # Bibliotheek met Bijbel-teksten en verzen
 antwoorden_map = {'A': 0, 'B': 1, 'C': 2} # mapping van letter naar index
 
-bestand = open('\\Bijbel.txt') # bestand word gelezen
+# bestand word gelezen
+bestand = open('C:\\Users\\danny\\OneDrive\\Documenten\\Python Files\\Kleine Projecten\\\Bijbel-vers Spel\\Bijbel.txt')
 bijbel: dict = ast.literal_eval(bestand.read()) # maakt van de gelezen string een bibliotheek
 bestand.close()
 

@@ -4,7 +4,7 @@ import ast
 Bijbel = {}
 
 #bestand word weer gelezen
-Lees_bestand = open('C:\\Users\\danny\\OneDrive\\Documenten\\Python Files\\Tutorial\\Bijbel.txt')
+Lees_bestand = open('C:\\Users\\danny\\OneDrive\\Documenten\\Python Files\\Kleine Projecten\\\Bijbel-vers Spel\\Bijbel.txt')
 Invoer = Lees_bestand.read()
 Lees_bestand.close()
 
@@ -23,6 +23,6 @@ while Vers != '':
     pass
 
 #Bijbel bestand word geschreven
-Schrijf_bestand = open('C:\\Users\\danny\\OneDrive\\Documenten\\Python Files\\Tutorial\\Bijbel.txt','w')
+Schrijf_bestand = open('C:\\Users\\danny\\OneDrive\\Documenten\\Python Files\\Kleine Projecten\\\Bijbel-vers Spel\\Bijbel.txt', 'w')
 Schrijf_bestand.write(str(Bijbel))
 Schrijf_bestand.close()
